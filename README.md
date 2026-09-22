@@ -18,7 +18,7 @@ Python 3.10 or later with `numpy`, `pandas`, `matplotlib` and `pypower` (see `re
 |---|---|
 | `case57_hsr.m`, `case57_hsr_bus.csv`, `case57_hsr_branch.csv` | coupled host grid after the tap splits (63 buses, 86 branches), MATPOWER format |
 | `geometry.json` | bus coordinates, corridors, stations, the 29 TSS with their bus, type and tap data, section-to-TSS allocation |
-| `parameters.json` | trainset, catenary and timetable parameters, jitter regimes, seed conventions |
+| `parameters.json` | trainset, catenary, traction-transformer and timetable parameters, jitter regimes, seed conventions |
 | `hsr_demand_signature.npz` | one-second per-TSS demand and surplus regeneration of the nominal day |
 | `hsr_nominal_envelopes.npz` | 15-minute envelopes of the nominal day (energy layer, coincident-peak layer, regeneration snapshots, 10-s reserve products) |
 | `hsr_days_training.npz` | the 50-day training family (seeds 20000+k, 21000+k), reduced envelopes per day |
