@@ -22,7 +22,7 @@ Python 3.10 or later with `numpy`, `pandas`, `matplotlib` and `pypower` (see `re
 | `hsr_demand_signature.npz` | one-second per-TSS demand and surplus regeneration of the nominal day |
 | `hsr_nominal_envelopes.npz` | 15-minute envelopes of the nominal day (energy layer, coincident-peak layer, regeneration snapshots, 10-s reserve products) |
 | `hsr_days_training.npz` | the 50-day training family (seeds 20000+k, 21000+k), reduced envelopes per day |
-| `hsr_days_family40000.npz` | the paper's 100-day validation family (seeds 40000+k, 41000+k); other families on request in the notebook |
+| `hsr_days_family40000.npz` | the paper's 100-day validation family (seeds 40000+k, 41000+k) |
 
 ## Citation
 
